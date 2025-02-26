@@ -340,6 +340,34 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
+            <customTitle jcr:primaryType="nt:unstructured">
+                <policy_1740529839722
+                    jcr:lastModified="{Date}2025-02-25T19:32:07.436-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="CustomTitle Policy"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Background Color"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="background-red"
+                                    cq:styleId="1740529886908"
+                                    cq:styleLabel="Red"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="background-yellow"
+                                    cq:styleId="1740529889418"
+                                    cq:styleLabel="Yellow"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1740529839722>
+            </customTitle>
         </components>
     </mysite>
     <wcm jcr:primaryType="nt:unstructured">
