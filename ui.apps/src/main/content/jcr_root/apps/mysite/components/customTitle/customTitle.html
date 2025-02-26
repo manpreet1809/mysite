@@ -23,6 +23,9 @@
         background: red;
     }
 </style>
-<div data-sly-use.customTitle="com.mysite.core.models.CustomTitle">
-    <p>${customTitle .title}</p>
+<div data-sly-use.customTitle="com.mysite.core.models.CustomTitle"
+     data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.text="${customTitle.title}">
+    <p>${customTitle.title}</p>
 </div>
+<sly data-sly-call="${templates.placeholder @ isEmpty = !text, classAppend='cmp-text'}"></sly>
