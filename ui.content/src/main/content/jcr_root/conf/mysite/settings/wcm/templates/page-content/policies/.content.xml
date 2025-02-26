@@ -55,8 +55,8 @@
                                 cq:policy="mysite/components/download/policy_1575032193319"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
-                            <customTitle
-                                cq:policy="mysite/components/customTitle/policy_1740529839722"
+                            <customtitle
+                                cq:policy="mysite/components/customtitle/policy_1740529839722"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                         </components>

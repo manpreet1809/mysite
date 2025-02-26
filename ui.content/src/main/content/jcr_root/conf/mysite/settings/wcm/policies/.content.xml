@@ -340,7 +340,7 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
-            <customTitle jcr:primaryType="nt:unstructured">
+            <customtitle jcr:primaryType="nt:unstructured">
                 <policy_1740529839722
                     jcr:lastModified="{Date}2025-02-25T19:32:07.436-05:00"
                     jcr:lastModifiedBy="admin"
@@ -367,7 +367,7 @@
                         </item0>
                     </cq:styleGroups>
                 </policy_1740529839722>
-            </customTitle>
+            </customtitle>
         </components>
     </mysite>
     <wcm jcr:primaryType="nt:unstructured">
