@@ -15,7 +15,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 )
 public class CustomTitleImpl implements CustomTitle {
 
-    static final String RESOURCE_TYPE = "" ;
+    static final String RESOURCE_TYPE = "mysite/components/customtitle" ;
 
     @ValueMapValue
     private String title;

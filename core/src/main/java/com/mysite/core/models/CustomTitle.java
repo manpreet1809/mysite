@@ -7,8 +7,6 @@ public interface CustomTitle {
      *
      * @return The title of the custom model.
      */
-    default String getTitle() {
-        return null;
-    }
+     String getTitle();
 
 }
