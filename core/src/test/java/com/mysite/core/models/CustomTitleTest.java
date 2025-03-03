@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CustomTitleTest {
 
     private final AemContext context = new AemContext();
-    private static final String TITLE_VALUE = "Custom Title";
+    private static final String SUB_TITLE_VALUE = "Custom SubTitle";
     private static final String RESOURCE_PATH = "/content/page/customtitle";
 
     @BeforeEach
@@ -22,7 +22,7 @@ class CustomTitleTest {
         context.addModelsForClasses(CustomTitleImpl.class);
         context.create().resource(RESOURCE_PATH,
                 "sling:resourceType", "mysite/components/customtitle",
-                "title", TITLE_VALUE);
+                "subTitle", SUB_TITLE_VALUE);
     }
 
     @Test
@@ -31,6 +31,6 @@ class CustomTitleTest {
         assertNotNull(resource);
 
         CustomTitle customTitle = resource.adaptTo(CustomTitle.class);
-        assertEquals(TITLE_VALUE, customTitle.getTitle());
+        assertEquals(SUB_TITLE_VALUE, customTitle.getSubTitle());
     }
 }
